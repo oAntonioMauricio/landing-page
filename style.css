@@ -4,19 +4,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Hero Section */
+
 .hero {
     height: auto;
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 0px 15% 15% 15%;
+    padding: 25px 15% 15% 15%;
     gap: 150px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding-top: 25px;
 }
 
 .logo {
@@ -77,4 +78,137 @@ li,
     font-size: 16px;
     border-radius: 9px;
     width: 120px;
+}
+
+/* Info Section */
+
+.info-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 100px 15%;
+    gap: 50px;
+}
+
+.info-h {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-down {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    gap: 10px;
+}
+
+.info-square {
+    border: 5px solid blue;
+    width: auto;
+    height: 200px;
+}
+
+.info-card>p {
+    text-align: center;
+    color: #707171;
+    font-size: 18px;
+}
+
+/* Quotes Section */
+
+.quote-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 25%;
+    gap: 20px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote-author>p {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* CTA Section */
+
+.cta-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 100px 15%;
+}
+
+.cta-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    height: auto;
+    padding: 50px 100px;
+    border-radius: 9px;
+    gap: 45px;
+}
+
+.cta-cont>div>h3 {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.cta-cont>div>p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.cta-cont>div>button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 9px;
+    padding: 8px 45px;
+}
+
+/* Footer */
+
+.footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px 15%;
+}
+
+.footer > p {
+    color: white;
+    font-size: 18px;
 }
